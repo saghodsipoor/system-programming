@@ -1,0 +1,12 @@
+cmake_minimum_required(VERSION 3.5.1)
+
+project(system-programming)
+
+add_executable(simple_write simple_write.c)
+add_executable(simple_read simple_read.c)
+add_executable(copy_system copy_system.c)
+add_executable(copy_block copy_block.c)
+add_executable(system_function system_function.c)
+add_executable(system_function2 system_function2.c)
+add_executable(fork fork.c)
+add_executable(wait wait.c)
